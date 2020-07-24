@@ -1,4 +1,4 @@
-from flask import Flask, render_template,request
+from flask import Flask, render_template,request, send_file
 
 import os
 
@@ -28,8 +28,8 @@ def send():
 
         output_file = os.path.join(dirname, 'output.pdf')
         rendered_pdf.write(open(output_file, 'wb'))
-        
-        return render_template('thanks.html',)
+
+        return send_file('output.pdf')
     return render_template('index.html')
 
 if __name__ == '__main__':
