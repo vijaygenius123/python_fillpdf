@@ -1,6 +1,6 @@
 chardet==3.0.4
 fdfgen==0.16.1
-Jinja2==2.11.2
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 pdfjinja==1.1.0
 pdfminer.six==20160202
