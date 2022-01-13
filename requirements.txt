@@ -4,7 +4,7 @@ Jinja2==2.11.3
 MarkupSafe==1.1.1
 pdfjinja==1.1.0
 pdfminer.six==20160202
-Pillow==8.3.2
+Pillow==9.0.0
 PyPDF2==1.26.0
 reportlab==3.5.55
 six==1.15.0
